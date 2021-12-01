@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title> Tentang Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="animasi.css">
+    <style type="text/css">
+      .our-team{
+      padding: 30px 0 40px;
+      background: #fff;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+    }
+ 
+    .our-team .pic{
+      display: inline-block;
+      width: 130px;
+      height: 130px;
+      margin-bottom: 50px;
+      /*background:#a5e4dc;*/
+      position: relative;
+      z-index: 1;
+    }
+ 
+    .our-team .pic:before
+    {
+      content: "";
+      width: 100%;
+      background: #a5e4dc;
+      position: absolute;
+      bottom: 135%;
+      right: 0;
+      left: 0; 
+      transform: scale(3);
+      transition: all 0.3s linear 0s;
+    }
+ 
+    .our-team:hover .pic:before
+    {
+      height: 100%;
+    }
+ 
+    .our-team .pic:after
+    {
+      content: "";
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #a5e4dc;
+      position: absolute;
+      top: 0;
+      left: 0; 
+      z-index: -1;
+    }
+ 
+    .our-team .pic img{
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      transform: scale(1);
+      transition: all 0.9s ease 0s;
+    }
+ 
+    .our-team:hover .pic img
+    {
+      box-shadow: 0 0 0 14px #a5e4dc;
+      transform: scale(0.7);
+    }
+ 
+    .our-team .team-content
+    {
+      margin-bottom: 30px;
+    }
+    
+    .our-team .title{
+      font-size: 22px;
+      font-weight: 700;
+      color:#4e5052;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      margin-bottom: 5px;
+    }
+ 
+    .our-team .post{
+      display: block;
+      font-size: 15px;
+      color:#4e5052;
+      text-transform: capitalize;
+    }
+ 
+    
+    /**/
+  
+    </style>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+
+     
+      <a class="navbar-brand" href="#" style="color: #00a2c6;">Maju UMKM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link  " href="index.html"  style="color: #00a2c6;">Beranda <i class="fas fa-home"></i> </a>
+          <a class="nav-link active" href="tentang.html"  style="color: #00a2c6;">Tentang Saya <i class="fas fa-info"></i></a>
+        
+         
+          <a class=" btn btn-warning tombol" href="login.html">Login</a>
+        
+        </div>
+      </div>
+    </div>
+    </nav>
+    <!-- tutup nav -->
+    <!-- jumotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-6">
+            <h1 class="display-4 "  data-aos="fade-right">Tentang Saya</h1>
+          
+
+          </div>
+          <div class="col-lg-6 img-jumbotron">
+            <img src="img/tentang.png" alt="" style="width: 100%;"  data-aos="fade-left">
+          </div>
+        </div>
+      
+       
+      </div>
+    </div>
+    <!-- akhir -->
+    <!-- container -->
+ 
+  </div>
+
+   <!--  -->
+      <div class="row ">
+        <div class="col-12 info-panel ">
+          <!-- container -->
+          
+            <!--  -->
+            <!-- card -->
+            <div class="row">
+      <div class="offset-lg-4 col-lg-4 col-sm-6 col-12 main-section text-center" data-aos="fade-in">
+          <div class="row">
+              <div class="col-lg-12 col-sm-12 col-12 profile-header"></div>
+          </div>
+          <div class="row user-detail">
+              <div class="col-lg-12 col-sm-12 col-12">
+                  <img src="img/profile.png" class="rounded-circle img-thumbnail" style="width: 70%">
+                  <h5>Achmad Mustofa</h5>
+                  <p><i class="fa fa-map-marker" aria-hidden="true"></i> Pamekasan Pademawu Jawa Timur.</p>
+
+                  <hr>
+                  <a href="#" class="btn btn-success btn-sm">Belajar</a>
+                  <a href="#" class="btn btn-info btn-sm">Berjuang</a>
+                   <a href="#" class="btn btn-success btn-sm">Berkarya</a>
+
+
+                  <hr>
+                  <span>Seorang Pemuda Desa Yang Sangat Cinta Terhadap Tekhnologi.</span>
+              </div>
+          </div>
+          
+      </div>
+    </div>
+
+     <h3 class="mt-2 text-center judul mt-3" data-aos="fade-in"> Riwayat Pendidikan</h3>
+              <hr data-aos="fade-in">
+
+             <ul class="timeline mt-5 ">
+              <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel " data-aos="fade-right">
+                  <div class="timeline-heading">
+                   
+                   
+                  </div>
+                  <div class="timeline-body" >
+                    <div class="row">
+                      
+                      <div class="col-lg-6">
+                        <img src="img/schol.png" class="card-img-top" alt="..." >
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="card-body panel">
+                          <h5 class="card-title">SD</h5>
+                          <p class="card-text" style="font-family: arial;">Saya menempuh pendidikan di SDN jarin 1</p>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel " data-aos="fade-left">
+                  <div class="timeline-heading">
+                   
+                  </div>
+                  <div class="timeline-body ">
+                    <div class="row">
+                      
+                      <div class="col-lg-6">
+                        <img src="img/schol.png" class="card-img-top" alt="..." >
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="card-body panel">
+                          <h5 class="card-title">SMP</h5>
+                          <p class="card-text" style="font-family: arial;">Saya Sekolah di SMP AL-JAZIEL</p>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel " data-aos="fade-right">
+                  <div class="timeline-heading">
+                  
+                   
+                  </div>
+                  <div class="timeline-body ">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <img src="img/schol.png" class="card-img-top" alt="..." >
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="card-body panel">
+                          <h5 class="card-title">SMA</h5>
+                          <p class="card-text">SMA saya di SMAN 1 Pademawu</p>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel " data-aos="fade-left">
+                  <div class="timeline-heading">
+                  
+                  </div>
+                  <div class="timeline-body">
+                    <div class="row">
+                      
+                      <div class="col-lg-6">
+                        <img src="img/schol.png" class="card-img-top" alt="..." >
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="card-body panel">
+                          <h5 class="card-title">Perguruan Tinggi</h5>
+                          <p class="card-text" style="font-family: arial;">Untuk perguruan tinggi, saya menempuh pendidikan di UTM.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+               
+            
+          </ul>
+              <!-- card -->
+                <h3 class="mt-2 text-center judul mt-3" data-aos="fade-in"> My Hobby</h3>
+              <hr data-aos="fade-in">
+            <!--  -->
+            <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="our-team" data-aos="fade-in">
+          <div class="pic">
+            <img src="img/gym.png" alt="">
+          </div>
+          <div class="team-content">
+            <h3 class="title">Gym</h3>
+           
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="our-team"  data-aos="fade-in">
+          <div class="pic">
+            <img src="img/renang.png" alt="">
+          </div>
+          <div class="team-content">
+            <h3 class="title">Renang</h3>
+          
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="our-team"  data-aos="fade-in">
+          <div class="pic">
+            <img src="img/lari.png" alt="" style="width: 80px">
+          </div>
+          <div class="team-content">
+            <h3 class="title">Lari</h3>
+            
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="our-team"  data-aos="fade-in">
+          <div class="pic">
+            <img src="img/membaca.png" alt="" style="width: 80px">
+          </div>
+          <div class="team-content">
+            <h3 class="title">Membaca</h3>
+           
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+              
+              
+              <!--  -->
+            </div>
+          
+            
+          <!-- tutup -->
+      </div>
+
+
+     
+      
+            <!--  -->
+          </div>
+
+         
+         
+          
+         
+
+        </div>
+      </div>
+    <!-- footer -->
+    <div class="ngab">
+      
+      <a href="#" class="icon" onclick="toggleElement()"> <i class="fas fa-comments"></i></a>
+     
+    </div>
+
+    <!-- chats -->
+     <div class="container" id="container" style="display: none;">
+        <div class="row pt-3">
+            <div class="col-lg-3 m-0 chat-main">
+                <div class="row">
+                    <div class="col-md-12 chat-header rounded-top p-2">
+                        <div class="row">
+                            <div class="col-md-2 image">
+                                <img src="img/undraw_profile_1.svg" class="rounded">
+                            </div>
+                            <div class="col-md-7 user-detail pt-2">
+                                <h6 class="pt-1">Admin</h6>
+                                <i class="fa fa-circle active ml-1" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-md-3 options text-right pt-2">
+                                <i class="fa fa-ellipsis-h mr-1 hide-chat-box" id="container"></i>
+                                <a href="" id="container"> <i class="fa fa-times hide-chat-box" ></i></a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12  chat-content p-0 bg-white border border-top-0">
+                        <ul class="pl-3 pr-3 pt-1 mb-1">
+                            <li class="p-2 mb-1 rounded">
+                                <span class="float-right time">12:00</span>
+                                <p class="m-0">Ada yang bisa kami bantu?.</p>
+                            </li>
+                            <li class="p-2 mb-1 rounded">
+                                <p class="m-0">Kami admin web Maju UMKM siap melayani anda 24 Jam.</p>
+                            </li>
+                            <li class="p-2 mb-1 rounded">
+                                <p class="m-0">Anda bisa bertanya sepuasnya di sini.</p>
+                            </li><hr>
+                            <li class="p-2 mb-1 rounded bg-info text-white">
+                                <span class="float-right time text-white">12:05</span>
+
+                                <p class="m-0">Selamat Siang Semuanya.</p>
+
+                            </li>
+                            <li class="p-2 mb-1 rounded">
+                                <span class="float-right time">12:06</span>
+                                <p class="m-0">Masukkan nama Anda.</p>
+                            </li>
+                            <li class="p-2 mb-1 rounded">
+                                <p class="m-0">Masukkan alamat anda</p>
+                            </li>
+                            <li class="p-2 mb-1 rounded">
+                                <p class="m-0">Masukkan nomor HP Anda.</p>
+                            </li><hr>
+                          
+
+                        </ul> 
+
+
+                      
+                        <div class="msg-box p-2">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" placeholder="Tulis Pesan ...">
+                                </div>
+                                <div class="col-md-3 pl-0">
+                                    <button class="btn btn-success">Kirim <i class="far fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <!-- select -->
+   <div class="select">
+    
+  </div>
+   <!--  -->
+      <footer>
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-12 col-lg-4 ">
+<img src="img/kemensos.png" alt="" style="padding-right: 20px; float: left;" width="40%" >
+<p class="artikel">Lembaga pemerintahan yang menaungi kami, Lembaga ini sudah menaungin sejak pandemi Covid 19</p>
+<p style="color: white; font-style: italic;">"Maju UMKM, sudah di naungin oleh lembaga pemerintahan, sehingga kalian tidak boleh ragu untuk belajar di sini. Kurikulum di sini sudh berstandard Global, tujunnya untuk menciptakan lulusan terbaik, dan menjadi web e commerce terbaik di dunia" </p>
+          </div>
+          <div class="col mt-2 ">
+            <p class="footer-title">Media Kami</p> 
+            <ul>
+              <li><a href=""><i class="fab fa-instagram"> Instagram</i></a></li>
+              <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href=""><i class="fab fa-youtube"></i> Youtube</a></li>
+              <li><a href=""><i class="fab fa-line"></i> Line</a></li>
+            </ul>
+          </div>
+          <div class="col mt-2 ">
+            <p class="footer-title">Contact Kami</p> 
+            <ul>
+              <li><a href=""><i class="fas fa-phone-square-alt"></i> 081807847829</a></li>
+              <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+              <li><a href=""><i class="fas fa-comments"></i> Live Chat</a></li>
+              <li><a href=""><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+      
+        <p class="text-center mt-4" style="font-size: bold; color: white; font-family: 'viga';">Achmad Mustofa &#169; 2021, Maju UMKM</p>
+     
+      </footer>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="animasi.js"></script>
+    <script>
+      AOS.init({
+        duration:2000,
+      });
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+     <script src="script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
